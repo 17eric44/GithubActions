@@ -56,7 +56,7 @@ namespace GithubActionsLab
         public void Multiply_Valid()
         {
             Assert.AreEqual(2, Program.Multiply("1", "2"));
-            Assert.AreEqual(15, Program.Multiply("3", "2"));
+            Assert.AreEqual(15, Program.Multiply("3", "5"));
             Assert.AreEqual(35, Program.Multiply("5", "7"));
         }
 
